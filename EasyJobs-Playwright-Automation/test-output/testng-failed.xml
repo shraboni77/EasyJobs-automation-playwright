@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EasyJobs Test Regression PW Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EasyJobs JobPage Test(failed)">
+    <classes>
+      <class name="com.qa.easyjobs.tests.JobPageTest">
+        <methods>
+          <include name="quizQuestionPageTitleTest"/>
+          <include name="isJobPublishedSuccessfully"/>
+          <include name="setup"/>
+          <include name="screeningQuestionPageTitleTest"/>
+          <include name="customJobApplyFieldSaveButton"/>
+          <include name="addQuizQuestions"/>
+          <include name="addScreeningQuestions"/>
+          <include name="quizSaveButton"/>
+          <include name="screeningQuestionSaveButton"/>
+          <include name="setQuizDuration"/>
+          <include name="tearDown"/>
+          <include name="setQuizMarks"/>
+          <include name="selectJobCategory"/>
+          <include name="jobPublishConfirmButton"/>
+        </methods>
+      </class> <!-- com.qa.easyjobs.tests.JobPageTest -->
+    </classes>
+  </test> <!-- EasyJobs JobPage Test(failed) -->
+  <test thread-count="5" name="EasyJobs CandidateApply Test(failed)">
+    <classes>
+      <class name="com.qa.easyjobs.tests.CandidateApplyPageTest">
+        <methods>
+          <include name="testScreeningPageVisible"/>
+          <include name="testStartQuiz"/>
+          <include name="setup"/>
+          <include name="testSaveContinueScreening"/>
+          <include name="testApplyNow"/>
+          <include name="testSelectAnswer3"/>
+          <include name="testFinalPageVisible"/>
+          <include name="testQuizPageVisible"/>
+          <include name="testVerifyPageTitle"/>
+          <include name="testSaveContinueAfterCoverLetter"/>
+          <include name="tearDown"/>
+          <include name="cAIModal"/>
+          <include name="testSelectQuizOption2"/>
+          <include name="testSubmitApplication"/>
+          <include name="testSubmitQuizAnswer"/>
+          <include name="testWriteCoverLetter"/>
+          <include name="testSaveBasicInfo"/>
+        </methods>
+      </class> <!-- com.qa.easyjobs.tests.CandidateApplyPageTest -->
+    </classes>
+  </test> <!-- EasyJobs CandidateApply Test(failed) -->
+  <test thread-count="5" name="EasyJobs ConversationPage Test(failed)">
+    <classes>
+      <class name="com.qa.easyjobs.tests.ConversationPageTest">
+        <methods>
+          <include name="clickConversationTab"/>
+          <include name="tearDown"/>
+          <include name="clickpipelineDropDown"/>
+          <include name="testViewCandidateDetails"/>
+          <include name="setup"/>
+          <include name="testChangePipelineToShortlist"/>
+          <include name="testConversationStartedLabelNotVisibleOnPipelineChange"/>
+          <include name="testSearchForCandidate"/>
+          <include name="testAssignAssessment"/>
+          <include name="testSendMessageAndCheckConversationStartedLabel"/>
+          <include name="testAddNoteAndCheckConversationStartedLabel"/>
+          <include name="testNavigateToCandidatesPage"/>
+        </methods>
+      </class> <!-- com.qa.easyjobs.tests.ConversationPageTest -->
+    </classes>
+  </test> <!-- EasyJobs ConversationPage Test(failed) -->
+</suite> <!-- Failed suite [EasyJobs Test Regression PW Suite] -->

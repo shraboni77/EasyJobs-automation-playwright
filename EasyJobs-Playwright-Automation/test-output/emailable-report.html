@@ -1,0 +1,1127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">EasyJobs Test Regression PW Suite</th></tr>
+<tr><td><a href="#t0">EasyJobs LoginPage Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">139,956</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EasyJobs DashboardPage Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,510</td><td></td><td></td></tr>
+<tr><td><a href="#t2">EasyJobs JobPage Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">12</td><td class="num">129,814</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">EasyJobs CandidateApply Test</a></td><td class="num">0</td><td class="num attn">15</td><td class="num">0</td><td class="num">0</td><td class="num">3,011</td><td></td><td></td></tr>
+<tr><td><a href="#t4">EasyJobs ConversationPage Test</a></td><td class="num">0</td><td class="num attn">10</td><td class="num">0</td><td class="num">0</td><td class="num">2,358</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">19</th><th class="num attn">25</th><th class="num">0</th><th class="num attn">12</th><th class="num">296,649</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EasyJobs Test Regression PW Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EasyJobs LoginPage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.qa.easyjobs.tests.LoginPageTest</td><td><a href="#m0">doLoginTest</a></td><td rowspan="1">1736058119191</td><td rowspan="1">2039</td></tr><tr class="passedeven"><td><a href="#m1">forgotPwdLinkExistTest</a></td><td rowspan="1">1736058119169</td><td rowspan="1">21</td></tr><tr class="passedeven"><td><a href="#m2">loginPageTitleTest</a></td><td rowspan="1">1736058119149</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m3">loginPageURL</a></td><td rowspan="1">1736058119166</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EasyJobs DashboardPage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.qa.easyjobs.tests.DashboardPageTest</td><td><a href="#m4">dashboardPageTitleTest</a></td><td rowspan="1">1736058124262</td><td rowspan="1">3009</td></tr><tr class="passedeven"><td><a href="#m5">testActiveCandidateCardClickable</a></td><td rowspan="1">1736058130308</td><td rowspan="1">3466</td></tr><tr class="passedeven"><td><a href="#m6">testActiveJobsClickable</a></td><td rowspan="1">1736058133775</td><td rowspan="1">4514</td></tr><tr class="passedeven"><td><a href="#m7">testRecentApplicantsSection</a></td><td rowspan="1">1736058127275</td><td rowspan="1">3032</td></tr><tr class="passedeven"><td><a href="#m8">testTeamMembersClickable</a></td><td rowspan="1">1736058138291</td><td rowspan="1">4505</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">EasyJobs JobPage Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="12">com.qa.easyjobs.tests.JobPageTest</td><td><a href="#m9">addQuizQuestions</a></td><td rowspan="1">1736058271141</td><td rowspan="1">1473</td></tr><tr class="failedeven"><td><a href="#m10">addScreeningQuestions</a></td><td rowspan="1">1736058210908</td><td rowspan="1">30158</td></tr><tr class="failedeven"><td><a href="#m11">customJobApplyFieldSaveButton</a></td><td rowspan="1">1736058272622</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m12">isJobPublishedSuccessfully</a></td><td rowspan="1">1736058272626</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m13">jobPublishConfirmButton</a></td><td rowspan="1">1736058272624</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m14">quizQuestionPageTitleTest</a></td><td rowspan="1">1736058271136</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m15">quizSaveButton</a></td><td rowspan="1">1736058272621</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m16">screeningQuestionPageTitleTest</a></td><td rowspan="1">1736058210894</td><td rowspan="1">12</td></tr><tr class="failedeven"><td><a href="#m17">screeningQuestionSaveButton</a></td><td rowspan="1">1736058241079</td><td rowspan="1">30054</td></tr><tr class="failedeven"><td><a href="#m18">selectJobCategory</a></td><td rowspan="1">1736058170764</td><td rowspan="1">30134</td></tr><tr class="failedeven"><td><a href="#m19">setQuizDuration</a></td><td rowspan="1">1736058272616</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m20">setQuizMarks</a></td><td rowspan="1">1736058272619</td><td rowspan="1">1</td></tr><tr><th colspan="4">EasyJobs JobPage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.qa.easyjobs.tests.JobPageTest</td><td><a href="#m21">clickSaveButton</a></td><td rowspan="1">1736058207783</td><td rowspan="1">3108</td></tr><tr class="passedeven"><td><a href="#m22">createJobTest</a></td><td rowspan="1">1736058151822</td><td rowspan="1">3098</td></tr><tr class="passedeven"><td><a href="#m23">fillJobDetails</a></td><td rowspan="1">1736058154924</td><td rowspan="1">9546</td></tr><tr class="passedeven"><td><a href="#m24">jobPageTitleTest</a></td><td rowspan="1">1736058148805</td><td rowspan="1">3009</td></tr><tr class="passedeven"><td><a href="#m25">selectEmploymentType</a></td><td rowspan="1">1736058204370</td><td rowspan="1">182</td></tr><tr class="passedeven"><td><a href="#m26">selectJobType</a></td><td rowspan="1">1736058164478</td><td rowspan="1">3182</td></tr><tr class="passedeven"><td><a href="#m27">selectSalaryType</a></td><td rowspan="1">1736058204553</td><td rowspan="1">3227</td></tr><tr class="passedeven"><td><a href="#m28">selectSkills</a></td><td rowspan="1">1736058200905</td><td rowspan="1">3458</td></tr><tr class="passedeven"><td><a href="#m29">setExpiryDate</a></td><td rowspan="1">1736058167663</td><td rowspan="1">3097</td></tr><tr class="passedeven"><td><a href="#m30">testNavigateToJobPage</a></td><td rowspan="1">1736058145677</td><td rowspan="1">3124</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">EasyJobs CandidateApply Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.easyjobs.tests.CandidateApplyPageTest</td><td><a href="#m31">setup</a></td><td rowspan="1">1736058272769</td><td rowspan="1">2985</td></tr><tr><th colspan="4">EasyJobs CandidateApply Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.easyjobs.tests.CandidateApplyPageTest</td><td><a href="#m32">tearDown</a></td><td rowspan="1">1736058275779</td><td rowspan="1">0</td></tr><tr><th colspan="4">EasyJobs CandidateApply Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="15">com.qa.easyjobs.tests.CandidateApplyPageTest</td><td><a href="#m33">cAIModal</a></td><td rowspan="1">1736058275764</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m34">testApplyNow</a></td><td rowspan="1">1736058275763</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m35">testFinalPageVisible</a></td><td rowspan="1">1736058275777</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m36">testQuizPageVisible</a></td><td rowspan="1">1736058275773</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m37">testSaveBasicInfo</a></td><td rowspan="1">1736058275766</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m38">testSaveContinueAfterCoverLetter</a></td><td rowspan="1">1736058275768</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m39">testSaveContinueScreening</a></td><td rowspan="1">1736058275771</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m40">testScreeningPageVisible</a></td><td rowspan="1">1736058275769</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m41">testSelectAnswer3</a></td><td rowspan="1">1736058275770</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m42">testSelectQuizOption2</a></td><td rowspan="1">1736058275775</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m43">testStartQuiz</a></td><td rowspan="1">1736058275774</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m44">testSubmitApplication</a></td><td rowspan="1">1736058275778</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m45">testSubmitQuizAnswer</a></td><td rowspan="1">1736058275776</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m46">testVerifyPageTitle</a></td><td rowspan="1">1736058275760</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m47">testWriteCoverLetter</a></td><td rowspan="1">1736058275767</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">EasyJobs ConversationPage Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.easyjobs.tests.ConversationPageTest</td><td><a href="#m48">setup</a></td><td rowspan="1">1736058275789</td><td rowspan="1">2343</td></tr><tr><th colspan="4">EasyJobs ConversationPage Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.easyjobs.tests.ConversationPageTest</td><td><a href="#m49">tearDown</a></td><td rowspan="1">1736058278146</td><td rowspan="1">0</td></tr><tr><th colspan="4">EasyJobs ConversationPage Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="10">com.qa.easyjobs.tests.ConversationPageTest</td><td><a href="#m50">clickConversationTab</a></td><td rowspan="1">1736058278139</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m51">clickpipelineDropDown</a></td><td rowspan="1">1736058278137</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m52">testAddNoteAndCheckConversationStartedLabel</a></td><td rowspan="1">1736058278143</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m53">testAssignAssessment</a></td><td rowspan="1">1736058278145</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m54">testChangePipelineToShortlist</a></td><td rowspan="1">1736058278138</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m55">testConversationStartedLabelNotVisibleOnPipelineChange</a></td><td rowspan="1">1736058278140</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m56">testNavigateToCandidatesPage</a></td><td rowspan="1">1736058278134</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m57">testSearchForCandidate</a></td><td rowspan="1">1736058278135</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m58">testSendMessageAndCheckConversationStartedLabel</a></td><td rowspan="1">1736058278144</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m59">testViewCandidateDetails</a></td><td rowspan="1">1736058278136</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>EasyJobs LoginPage Test</h2><h3 id="m0">com.qa.easyjobs.tests.LoginPageTest#doLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.easyjobs.tests.LoginPageTest#forgotPwdLinkExistTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.easyjobs.tests.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.easyjobs.tests.LoginPageTest#loginPageURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EasyJobs DashboardPage Test</h2><h3 id="m4">com.qa.easyjobs.tests.DashboardPageTest#dashboardPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.easyjobs.tests.DashboardPageTest#testActiveCandidateCardClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.easyjobs.tests.DashboardPageTest#testActiveJobsClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.easyjobs.tests.DashboardPageTest#testRecentApplicantsSection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.easyjobs.tests.DashboardPageTest#testTeamMembersClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EasyJobs JobPage Test</h2><h3 id="m9">com.qa.easyjobs.tests.JobPageTest#addQuizQuestions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator(&quot;//span[@class=&apos;multiselect__option multiselect__option--highlight&apos;]&quot;)
+-   locator resolved to &lt;span data-select=&quot;&quot; data-deselect=&quot;&quot; data-selected=&quot;S…&gt;…&lt;/span&gt;
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-     element is not visible - waiting...
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.addQuizQuestions(JobPage.java:185)
+	at com.qa.easyjobs.tests.JobPageTest.addQuizQuestions(JobPageTest.java:179)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:375:15)
+}
+Call log:
+- waiting for locator(&quot;//span[@class=&apos;multiselect__option multiselect__option--highlight&apos;]&quot;)
+-   locator resolved to &lt;span data-select=&quot;&quot; data-deselect=&quot;&quot; data-selected=&quot;S…&gt;…&lt;/span&gt;
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-     element is not visible - waiting...
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.easyjobs.tests.JobPageTest#addScreeningQuestions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//span[@class=&apos;multiselect__option multiselect__option--highlight&apos;]&quot;)
+-   locator resolved to &lt;span data-select=&quot;&quot; data-deselect=&quot;&quot; data-selected=&quot;S…&gt;…&lt;/span&gt;
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-     element is not visible - waiting...
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.addScreeningQuestions(JobPage.java:171)
+	at com.qa.easyjobs.tests.JobPageTest.addScreeningQuestions(JobPageTest.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//span[@class=&apos;multiselect__option multiselect__option--highlight&apos;]&quot;)
+-   locator resolved to &lt;span data-select=&quot;&quot; data-deselect=&quot;&quot; data-selected=&quot;S…&gt;…&lt;/span&gt;
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-     element is not visible - waiting...
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.easyjobs.tests.JobPageTest#customJobApplyFieldSaveButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.clickCustomFieldsaveButton(JobPage.java:209)
+	at com.qa.easyjobs.tests.JobPageTest.customJobApplyFieldSaveButton(JobPageTest.java:214)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.easyjobs.tests.JobPageTest#isJobPublishedSuccessfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.isVisibleImpl(FrameImpl.java:641)
+	at com.microsoft.playwright.impl.PageImpl.lambda$isVisible$56(PageImpl.java:905)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.isVisible(PageImpl.java:904)
+	at com.microsoft.playwright.Page.isVisible(Page.java:5557)
+	at com.qa.easyjobs.pages.JobPage.isJobPublishedSuccessfully(JobPage.java:246)
+	at com.qa.easyjobs.tests.JobPageTest.isJobPublishedSuccessfully(JobPageTest.java:235)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 36 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.qa.easyjobs.tests.JobPageTest#jobPublishConfirmButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.jobPublishConfirmButton(JobPage.java:218)
+	at com.qa.easyjobs.tests.JobPageTest.jobPublishConfirmButton(JobPageTest.java:224)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.qa.easyjobs.tests.JobPageTest#quizQuestionPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Page title does not match after navigating to the Job Page! expected [easy.jobs | Job Quiz] but found [easy.jobs | Job Create]
+	at com.qa.easyjobs.tests.JobPageTest.quizQuestionPageTitleTest(JobPageTest.java:169)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.qa.easyjobs.tests.JobPageTest#quizSaveButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.quizSaveButton(JobPage.java:203)
+	at com.qa.easyjobs.tests.JobPageTest.quizSaveButton(JobPageTest.java:205)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.qa.easyjobs.tests.JobPageTest#screeningQuestionPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Page title does not match after navigating to the Job Page! expected [easy.jobs | Job Screening Question] but found [easy.jobs | Job Create]
+	at com.qa.easyjobs.tests.JobPageTest.screeningQuestionPageTitleTest(JobPageTest.java:143)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.qa.easyjobs.tests.JobPageTest#screeningQuestionSaveButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//button[normalize-space()=&apos;Save &amp; Continue&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.screeningQuestionSaveButton(JobPage.java:177)
+	at com.qa.easyjobs.tests.JobPageTest.screeningQuestionSaveButton(JobPageTest.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//button[normalize-space()=&apos;Save &amp; Continue&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.qa.easyjobs.tests.JobPageTest#selectJobCategory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//span[contains(text(),&apos;3D Animator&apos;)]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.selectJobCategory(JobPage.java:137)
+	at com.qa.easyjobs.tests.JobPageTest.selectJobCategory(JobPageTest.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/progress.js:87:26)
+    at Frame.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/frames.js:995:23)
+    at FrameDispatcher.click (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- waiting for locator(&quot;//span[contains(text(),&apos;3D Animator&apos;)]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.qa.easyjobs.tests.JobPageTest#setQuizDuration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.setQuizDuration(JobPage.java:189)
+	at com.qa.easyjobs.tests.JobPageTest.setQuizDuration(JobPageTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.qa.easyjobs.tests.JobPageTest#setQuizMarks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.PageImpl.lambda$click$17(PageImpl.java:586)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:585)
+	at com.microsoft.playwright.Page.click(Page.java:3779)
+	at com.qa.easyjobs.pages.JobPage.setQuizMarks(JobPage.java:195)
+	at com.qa.easyjobs.tests.JobPageTest.setQuizMarks(JobPageTest.java:196)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:277:44)
+    at transport.onmessage (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/cli/driver.js:52:57)
+    at Immediate._onImmediate (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/protocol/transport.js:77:34)
+    at process.processImmediate (node:internal/timers:478:21)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 38 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.qa.easyjobs.tests.JobPageTest#clickSaveButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.qa.easyjobs.tests.JobPageTest#createJobTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.qa.easyjobs.tests.JobPageTest#fillJobDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.qa.easyjobs.tests.JobPageTest#jobPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.qa.easyjobs.tests.JobPageTest#selectEmploymentType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.qa.easyjobs.tests.JobPageTest#selectJobType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.qa.easyjobs.tests.JobPageTest#selectSalaryType</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.qa.easyjobs.tests.JobPageTest#selectSkills</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.qa.easyjobs.tests.JobPageTest#setExpiryDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">com.qa.easyjobs.tests.JobPageTest#testNavigateToJobPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EasyJobs CandidateApply Test</h2><h3 id="m31">com.qa.easyjobs.tests.CandidateApplyPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">com.qa.easyjobs.tests.CandidateApplyPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">com.qa.easyjobs.tests.CandidateApplyPageTest#cAIModal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.cAIModal() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testApplyNow() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">com.qa.easyjobs.tests.CandidateApplyPageTest#testApplyNow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testApplyNow() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testVerifyPageTitle() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">com.qa.easyjobs.tests.CandidateApplyPageTest#testFinalPageVisible</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testFinalPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSubmitQuizAnswer() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">com.qa.easyjobs.tests.CandidateApplyPageTest#testQuizPageVisible</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testQuizPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveContinueScreening() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">com.qa.easyjobs.tests.CandidateApplyPageTest#testSaveBasicInfo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveBasicInfo() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.cAIModal() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">com.qa.easyjobs.tests.CandidateApplyPageTest#testSaveContinueAfterCoverLetter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveContinueAfterCoverLetter() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testWriteCoverLetter() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">com.qa.easyjobs.tests.CandidateApplyPageTest#testSaveContinueScreening</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveContinueScreening() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSelectAnswer3() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">com.qa.easyjobs.tests.CandidateApplyPageTest#testScreeningPageVisible</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testScreeningPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveContinueAfterCoverLetter() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">com.qa.easyjobs.tests.CandidateApplyPageTest#testSelectAnswer3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSelectAnswer3() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testScreeningPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">com.qa.easyjobs.tests.CandidateApplyPageTest#testSelectQuizOption2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSelectQuizOption2() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testStartQuiz() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">com.qa.easyjobs.tests.CandidateApplyPageTest#testStartQuiz</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testStartQuiz() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testQuizPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">com.qa.easyjobs.tests.CandidateApplyPageTest#testSubmitApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSubmitApplication() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testFinalPageVisible() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">com.qa.easyjobs.tests.CandidateApplyPageTest#testSubmitQuizAnswer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testSubmitQuizAnswer() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSelectQuizOption2() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">com.qa.easyjobs.tests.CandidateApplyPageTest#testVerifyPageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">com.qa.easyjobs.tests.CandidateApplyPageTest#testWriteCoverLetter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.easyjobs.tests.CandidateApplyPageTest.testWriteCoverLetter() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4 depends on not successfully finished methods 
+[com.qa.easyjobs.tests.CandidateApplyPageTest.testSaveBasicInfo() on instance com.qa.easyjobs.tests.CandidateApplyPageTest@4a94ee4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EasyJobs ConversationPage Test</h2><h3 id="m48">com.qa.easyjobs.tests.ConversationPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">com.qa.easyjobs.tests.ConversationPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">com.qa.easyjobs.tests.ConversationPageTest#clickConversationTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">com.qa.easyjobs.tests.ConversationPageTest#clickpipelineDropDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">com.qa.easyjobs.tests.ConversationPageTest#testAddNoteAndCheckConversationStartedLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m53">com.qa.easyjobs.tests.ConversationPageTest#testAssignAssessment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">com.qa.easyjobs.tests.ConversationPageTest#testChangePipelineToShortlist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">com.qa.easyjobs.tests.ConversationPageTest#testConversationStartedLabelNotVisibleOnPipelineChange</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">com.qa.easyjobs.tests.ConversationPageTest#testNavigateToCandidatesPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">com.qa.easyjobs.tests.ConversationPageTest#testSearchForCandidate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">com.qa.easyjobs.tests.ConversationPageTest#testSendMessageAndCheckConversationStartedLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">com.qa.easyjobs.tests.ConversationPageTest#testViewCandidateDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:129)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$45(PageImpl.java:836)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:836)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5332)
+	at com.qa.easyjobs.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:99)
+	at com.qa.easyjobs.base.BaseTest.setup(BaseTest.java:37)
+Caused by: com.microsoft.playwright.impl.TargetClosedError: Error {
+  message=&apos;Target page, context or browser has been closed
+  name=&apos;TargetClosedError
+  stack=&apos;TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/stackTrace.js:50:17)
+    at LongStandingScope._race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:91:52)
+    at LongStandingScope.race (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/utils/manualPromise.js:84:17)
+    at FrameDispatcher._handleCommand (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:96:36)
+    at DispatcherConnection.dispatch (/private/var/folders/mc/dyqmrmzn7wzgnndqb4yxm5ch0000gn/T/playwright-java-10600792000996021267/package/lib/server/dispatchers/dispatcher.js:362:39)
+}
+Call log:
+- navigating to &quot;https://app.easy.jobs/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:256)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:209)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	... 33 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

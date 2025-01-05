@@ -1,1 +1,0 @@
-# EasyJobs-automation-playwright

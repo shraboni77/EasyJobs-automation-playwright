@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EasyJobs Test Regression PW Suite"  verbose="1" >
+
+	<test name="EasyJobs LoginPage Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.LoginPageTest" />
+			
+				</classes>
+	</test>
+
+	<test name="EasyJobs DashboardPage Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.DashboardPageTest" />
+				</classes>
+	</test>
+	
+
+
+	<test name="EasyJobs JobPage Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.JobPageTest" />
+				</classes>
+	</test>
+	
+	
+		<test name="EasyJobs CandidateApply Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.CandidateApplyPageTest" />
+				</classes>
+	</test>
+	
+	
+	
+	<test name="EasyJobs ConversationPage Test">
+		<classes>
+			<class name="com.qa.easyjobs.tests.ConversationPageTest" />
+				</classes>
+	</test>
+
+</suite>
