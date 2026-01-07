@@ -1,20 +1,21 @@
-# EasyJobs Automation with Playwright
+# EasyJobs Automation – Playwright (Java)
 
 ## 📌 Project Overview
 
-This repository contains an end-to-end automation framework built using **Playwright** to test the **EasyJobs** application. The goal of this project is to ensure core user flows are stable, reusable, and scalable while following industry best practices for QA automation.
+This repository contains an end-to-end automation framework built using **Playwright with Java**, designed to test the **EasyJobs** application. The framework follows the **Page Object Model (POM)** and **Page Factory** approach to ensure maintainability, reusability, and scalability.
 
-The framework is designed with **maintainability**, **reusability**, and **real-world QA scenarios** in mind and reflects how automation is implemented in a professional product-based environment.
+A key highlight of this project is **session (auth) reuse**, where login authentication is stored once and reused across multiple test classes to optimize execution time and avoid redundant logins.
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Automation Tool:** Playwright
 * **Language:** Java
-* **Test Design Pattern:** Page Object Model (POM)
-* **Test Runner:** Playwright Test
-* **Environment:** Local & CI-ready
+* **Automation Tool:** Playwright
+* **Test Framework:** TestNG
+* **Build Tool:** Maven
+* **IDE:** Eclipse
+* **Design Pattern:** Page Object Model + Page Factory
 
 ---
 
@@ -23,90 +24,91 @@ The framework is designed with **maintainability**, **reusability**, and **real-
 ```
 EasyJobs-automation-playwright
 │
-├── pages/
-│   ├── LoginPage.java
-│   ├── DashboardPage.java
-│   ├── JobPage.java
+├── src/main/java
+│   ├── com.easyjobs.factory
+│   │   └── PlaywrightFactory.java
+│   ├── com.easyjobs.pages
+│   │   ├── LoginPage.java
+│   │   ├── DashboardPage.java
+│   │   └── JobPage.java
+│   └── com.easyjobs.utils
+│       └── AppConstants.java
 │
-├── tests/
-│   ├── loginPageTes.java
-│   ├── dashboardPageTest.java
-│   ├── jobPageTest.java
+├── src/test/java
+│   ├── com.easyjobs.base
+│   │   └── BaseTest.java
+│   ├── com.easyjobs.tests
+│   │   ├── LoginPageTest.java
+│   │   ├── DashboardPageTest.java
+│   │   └── JobPageTest.java
 │
-├── utils/
-│   ├── auth.setup.java
-│   ├── constants.java
-│
-├── playwright.config.java
-├── package.json
+├── pom.xml
 └── README.md
 ```
 
 ---
 
-## ✅ Key Features
+## 🔐 Authentication & Session Management (Key Feature)
 
-* **Page Object Model (POM)** for clean separation of logic
-* **Session reuse (storageState)** to avoid repeated logins
-* **Multi-page & popup handling**
-* **Explicit waits for stability**
-* **Reusable utility methods**
-* **Scalable structure** suitable for large applications
+To improve test efficiency, authentication is handled **once** and reused across tests.
 
----
+### How It Works
 
-## 🔐 Authentication Handling
+* Login is performed only in `LoginPageTest`
+* Authentication state (session) is stored using Playwright
+* The stored session is loaded in other test classes (Dashboard, Job Page)
+* Prevents repeated login for each test class
 
-Login is executed **once**, and the authenticated session is stored using Playwright’s `storageState`. This stored session is reused across Dashboard and Job-related tests to improve execution speed and reliability.
+### Why This Approach
 
----
-
-## 🧪 Test Coverage
-
-* Login flow validation
-* Dashboard navigation & verification
-* Job page interactions
-* Apply flow with new window handling
-* UI validations and assertions
+* Faster test execution
+* More stable tests
+* Mimics real user behavior
+* Ideal for large regression suites
 
 ---
 
-## ▶️ How to Run the Tests
+## 🧱 Page Factory Usage
 
-```bash
-npm install
-npx playwright install
-npx playwright test
-```
+Each page class:
 
-To run a specific test:
+* Stores locators as private members
+* Uses Playwright’s `Page` instance
+* Exposes clean action methods (no test logic inside pages)
 
-```bash
-npx playwright test tests/login.spec.java
-```
+Example responsibilities:
 
----
-
-## 📊 Reporting
-
-Playwright’s built-in HTML report is enabled.
-
-```bash
-npx playwright show-report
-```
+* `LoginPage` → login actions
+* `DashboardPage` → dashboard validations
+* `JobPage` → job-related flows
 
 ---
 
-## 🚀 Why This Project Matters
+## ▶️ How to Run the Tests (Using Eclipse)
 
-This project demonstrates:
+1. Clone the repository
+2. Open **Eclipse**
+3. Import as **Existing Maven Project**
+4. Run `mvn clean install` to install dependencies
+5. Right-click on any test class → **Run as TestNG Test**
 
-* Real-world QA automation architecture
-* Strong understanding of Playwright capabilities
-* Practical handling of authentication, windows, and state
-  
+---
 
-It is intended to showcase **professional QA automation skills** rather than just basic test scripts.
+## 📌 Key Scenarios Covered
+
+* User login and session persistence
+* Dashboard validation without re-login
+* Job page navigation and validations
+* Multi-page flow testing using shared session
+
+---
+
+## 🚀 Future Improvements
+
+* CI/CD integration (GitHub Actions)
+* Parallel execution
+* Environment-based config support
+* Test data externalization
 
 ---
 
@@ -114,13 +116,8 @@ It is intended to showcase **professional QA automation skills** rather than jus
 
 **Shraboni Shaila Shormin**
 Senior QA Engineer
-Automation | WordPress | SaaS | Playwright
+Specialized in WordPress, SaaS, and Automation Testing
 
 ---
 
-## 📌 Future Improvements
-
-* CI/CD pipeline integration (GitHub Actions)
-* Visual regression testing
-* API + UI hybrid tests
-* Cross-browser & mobile viewport coverage
+⭐ If you find this project helpful, feel free to star the repository!
