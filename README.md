@@ -29,9 +29,9 @@ EasyJobs-automation-playwright
 │   ├── JobPage.java
 │
 ├── tests/
-│   ├── login.spec.java
-│   ├── dashboard.spec.java
-│   ├── job.spec.java
+│   ├── loginPageTes.java
+│   ├── dashboardPageTest.java
+│   ├── jobPageTest.java
 │
 ├── utils/
 │   ├── auth.setup.java
